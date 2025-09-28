@@ -1,0 +1,36 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.action-button {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.list {
+  display: grid;
+  grid-gap: 12px;
+}
+
+.training-list {
+  display: grid;
+  grid-gap: 12px;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 12px 0;
+}
+
+.training-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  font-weight: bold;
+}
+
+.training-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
